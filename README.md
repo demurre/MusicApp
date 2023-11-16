@@ -1,5 +1,5 @@
 # Music App
-
+## Music App using React with a track search function, a playbar where you can change the track time, play/pause buttons 
 ![prev](https://github.com/demurre/demurre/assets/117121382/a7709bbf-b94b-4dbc-b53e-e1e9f9f24417)
 ![prev2](https://github.com/demurre/demurre/assets/117121382/a1ff7313-11ba-4a40-afbb-0812e4bf8da4)
 

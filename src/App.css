@@ -1,42 +1,147 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  font-family: "Satoshi";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  background-color: #262c37;
+  padding: 50px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.wrapper {
+  display: flex;
+  padding: 10px;
+  gap: 60px;
+  width: min(600px, 90vw);
+  margin: auto;
+}
+
+.search {
+  flex: 1;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color: #fff;
+  flex: 1;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+  margin: 10px 0;
+  max-height: calc(100vh - 195px);
+  overflow: auto;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.track {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.track b {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.track p {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.track * {
+  color: white;
+}
+
+.playing * {
+  color: #7048a5;
+}
+
+.credits {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.preview {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.playbar {
+  position: fixed;
+  background-color: #7048a5;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.playbar .togglePlay {
+  transform: scale(120%) !important;
+}
+
+.playbar p {
+  font-size: 14px;
+}
+
+.playbar * {
+  color: white !important;
+}
+
+.preview {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.credits {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  letter-spacing: 2px;
+}
+
+.credits p {
+  font-size: 14px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 600px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    margin: auto;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

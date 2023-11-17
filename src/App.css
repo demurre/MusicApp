@@ -125,6 +125,7 @@ body {
   flex-direction: column;
   gap: 4px;
   letter-spacing: 2px;
+  width: 50%;
 }
 
 .credits p {

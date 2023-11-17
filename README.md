@@ -1,7 +1,7 @@
 # Music App
 
-![prev](https://github.com/demurre/demurre/assets/117121382/a7709bbf-b94b-4dbc-b53e-e1e9f9f24417)
-![prev2](https://github.com/demurre/demurre/assets/117121382/a1ff7313-11ba-4a40-afbb-0812e4bf8da4)
+![prev](https://github.com/demurre/MusicApp/assets/117121382/a1f81844-1b13-46c5-990c-4f148aa11d8f)
+![prev2](https://github.com/demurre/MusicApp/assets/117121382/79f7d6ae-7ed7-4d01-ad31-6bdbd651a532)
 
 ## Run locally
 

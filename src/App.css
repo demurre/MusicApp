@@ -136,7 +136,14 @@ body {
   align-items: center;
   gap: 20px;
   flex-basis: 600px;
-  margin-left: auto;
+  margin: auto;
+}
+
+.vslider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 600px;
 }
 
 @media screen and (max-width: 600px) {

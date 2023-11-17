@@ -125,6 +125,7 @@ body {
   flex-direction: column;
   gap: 4px;
   letter-spacing: 2px;
+  width: 50%;
 }
 
 .credits p {
@@ -136,7 +137,14 @@ body {
   align-items: center;
   gap: 20px;
   flex-basis: 600px;
-  margin-left: auto;
+  margin: auto;
+}
+
+.vslider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 600px;
 }
 
 @media screen and (max-width: 600px) {

@@ -4,6 +4,8 @@
 ![prev](https://github.com/demurre/MusicApp/assets/117121382/a1f81844-1b13-46c5-990c-4f148aa11d8f)
 ![prev2](https://github.com/demurre/MusicApp/assets/117121382/79f7d6ae-7ed7-4d01-ad31-6bdbd651a532)
 
+## [Demo](https://music-app-demurre.vercel.app/)
+
 ## Run locally
 
 ### 1.
